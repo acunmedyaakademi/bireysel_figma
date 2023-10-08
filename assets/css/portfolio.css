@@ -1,0 +1,194 @@
+.mother-div{
+    width: 1440px;
+    margin: 0 auto;
+}
+/*head content*/
+.head-content{
+    width: 1440px;
+    margin: 0 auto;
+}
+.content-text{
+    width: 874px;
+    height: 417px;
+    margin: 120px 411px 120px 155px;
+}
+.content-text h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px; /* 123.333% */
+    letter-spacing: -0.35px; 
+}
+.content-text h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px; /* 116.667% */
+    letter-spacing: -0.7px; 
+}
+.text-icon{
+    margin-top: 40px;
+    display: flex;
+    gap: 32px;
+}
+/*Head content bitiş*/
+
+/*projects başlangıç*/
+.projects{
+    width: 1440px;
+    margin: 0 auto;
+}
+.projects-content{
+    width: 1440px;
+    margin: 0 auto;
+}
+.content-border{
+    margin: 0 auto;
+    width: 1100px;
+    height: auto;
+    gap: 80px;
+}
+.content-border h4{
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px; /* 123.333% */
+    letter-spacing: -0.35px; 
+    margin-bottom: 40px;
+}
+.content-kfc{
+    display: flex;
+    width: 1110px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px; 
+    border-radius: 12px; 
+    border: 1px solid #C4C4C4;
+    margin-bottom: 80px;
+}
+.kfc-pck{
+    border-radius: 12px;
+    border: 1px solid #C4C4C4;
+}
+.kfc-pck img{
+    border-radius: 12px
+}
+.kfc-text{
+    display: flex;
+    padding-right: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+    align-self: stretch; 
+}
+.text-t{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch; 
+    width: 669px;
+    height:auto;
+}
+.t-brand{
+    width: 100%;
+    height: 37px;
+}
+.t-brandi{
+    width: 100%;
+    height: 84px;
+}
+.text-t h4{
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px; /* 123.333% */
+    letter-spacing: -0.35px; 
+}
+.text-t p{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */ 
+}
+.text-ling {
+    display: flex;
+    align-items: center;
+    gap: 3px; 
+}
+.text-ling a{
+    font-family: Montserrat;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */ 
+    color: black;
+}
+/*projects bitiş*/
+
+/* contact başlangıç*/
+.contact{
+    width: 1440px;
+    margin: 0 auto;
+}
+.contact-content{
+    display: flex;
+    width: 1110px;
+    align-items: flex-start;
+    gap: 96px; 
+    margin-left: 165px;
+    height: 570px;
+}
+.contact-text{
+    width: 569px;
+    height: auto;
+}
+.contact-text h6{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px; /* 150% */ 
+    margin-bottom: 16px;
+}
+.contact-text h3{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px; /* 120% */
+    letter-spacing: -0.4px; 
+}
+.contact-text p{
+    color: #0D6EFD;
+}
+.contact-form{
+    width: 445px;
+    height: 369px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */ 
+}
+.form-submit{
+    display: flex;
+    padding: 12px 175px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch; 
+    border: 0;
+    width: 445px;
+    margin-left: 15px;
+}
+/*contact bitti*/
+.foot-txt{
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
+}
+.foot-txt p{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */ 
+    margin: 32px 1135px 32px 165px;
+}
