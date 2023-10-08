@@ -1,0 +1,98 @@
+.mother-container{
+    max-width: 1540px;
+    margin: 0 auto;
+}
+.container-contents{
+    width: 1440px;
+    margin: 0 auto;
+    background-image: url(/assets/img/hero_shop.png);
+    background-repeat: no-repeat;
+    height: 1024px;
+}
+/*Header Başlangıç*/
+
+.header{
+    width: 1440px;
+    height: 88px;
+    flex-shrink: 0; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.h-link {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 40px;
+}
+.h-link a{
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat; 
+}
+.h-link li{
+    margin-right: 10px;
+}
+.h-link li:last-child {
+    margin-right: 0;
+}
+.h-link a:hover{
+    color: #B58A3B;
+}
+.h-icon {
+    display: flex;
+    gap: 40px;
+}
+/*Header Bitiş*/
+
+/*content başlangıç*/
+.mid-shop{
+    width: 1440px;
+    margin: 0 auto;
+}
+.shop-content{
+    width: 920px;
+    height: 283px;
+    margin: 266px 260px 387px 260px;
+}
+.shop-content h4{
+    color: white;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 81px; /* 101.25% */
+    letter-spacing: -0.9px; 
+    margin-bottom: 24px;
+}
+.shop-content h5{
+    color: white;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 37px; /* 123.333% */
+    letter-spacing: -0.35px; 
+    margin-bottom: 40px;
+}
+
+.btn {
+    font-family: Montserrat;
+    display: flex;
+    padding: 16px 40px;
+    align-items: center;
+    gap: 16px; 
+    background-color: #094BAC;
+    border-radius: 32px; 
+    border: 0;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.bttn{
+    margin-left: 375px;
+}
